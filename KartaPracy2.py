@@ -52,3 +52,63 @@
 #   print("tak")
 # else:
 #   print("nie")
+
+
+
+# 1a
+# a = int(input())
+# b = int(input())
+# if (a+b) % 2 == 0:
+#   print("Tak")
+# else:
+#   print("Nie")
+
+# 2a
+# a = int(input())
+# g = int(input())
+# if (a+g)/2 > (a*g)**(1/2):
+#   print("Tak")
+# else:
+#   print("Nie")
+
+# 3a
+# k = int(input())
+# l = int(input())
+# m = int(input())
+# if k==l:
+#   print("tak równe są k i l")
+# if k==m:
+#   print("tak równe są k i m")
+# if l==m:
+#   print("tak równe są l i m")
+# else:
+#   print("Nie")
+
+# Zad 4a
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+
+
+
+# Zad 5a
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if (a+b)>c and (a+c)>b and (b+c)>a:
+#   print("Tak")
+# else:
+#   print("Nie")
+
+# Zad 6a
+a = int(input())
+b = int(input())
+c = int(input())
+if (a+b)>c and (a+c)>b and (b+c)>a and (c**2) == (a**2+b**2):
+  print("Tak, trójkąt prostokątny")
+if (a+b)>c and (a+c)>b and (b+c)>a and (c**2) > (a**2+b**2):
+  print("Tak, trójkąt rozwartokątny")
+if (a+b)>c and (a+c)>b and (b+c)>a and (c**2) < (a**2+b**2):
+  print("Tak, trójkąt ostrokątny")
+
