@@ -16,18 +16,38 @@
 
 # Zad 1
 # for i in range(10, 22, 1):
-#   print(i)
+#   print(i, end=" ")
 
 # Zad 2
 # for i in range(15, 32, 2):
 #   print(i)
 
 # Zad 3
-# for i in range(99, 9, -1):
+# for i in range(100, 9, -1):
 #   print(i)
 
+# Zad 4
+# for i in range( 10, 100 , 1):
+#   print(109-i)
+
+
 # Zad 5
-for i in range()
+# for i in range(100, 1000, 20):
+#   print(i, end=" ")
+
   
 
-              
+
+# Zad 1
+# n=int(input())
+# for n in range(n):
+#   print(n**3 + 3,  end=" ")
+
+# Zad 2
+# for i in range(105, 1000, 15):
+#   print(i, end=" ")
+
+##for i in range(100,1000):
+  ##if i % 15 == 0:
+   ## print (i, end=" ")
+    
