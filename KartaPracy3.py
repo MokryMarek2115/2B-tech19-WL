@@ -51,3 +51,26 @@
   ##if i % 15 == 0:
    ## print (i, end=" ")
     
+# Zad 3
+# p=int(input())
+# for n in range(1, p+1, 1):
+#   if p % n == 0:
+#     print(n)
+
+
+# Zad 4
+# s = 0
+# for i in range(10, 100, 1):
+#   s = s + i
+# print(s)
+
+
+# Zad 5 
+n=int(input())
+
+for i in range(n-1):
+  k=int(input())
+
+
+# Zad 6
+for i in range(1, )
