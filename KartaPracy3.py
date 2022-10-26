@@ -66,11 +66,25 @@
 
 
 # Zad 5 
-n=int(input())
+# n=int(input("W ile gramy? "))
 
-for i in range(n-1):
-  k=int(input())
+# suma = n * (n+1) // 2
 
-
+# for i in range(n-1):
+#   k=int(input())
+#   suma = suma - k
+# print("Brakuje", suma)
+  
+  
 # Zad 6
-for i in range(1, )
+
+
+
+
+
+
+# Napisz pętle sumującą liczby dwucyfrowe parzyste
+suma = 0
+for i in range(10, 100, 2):
+  suma = (suma + i)
+print(suma)
