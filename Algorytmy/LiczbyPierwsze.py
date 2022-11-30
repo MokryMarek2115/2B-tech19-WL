@@ -45,3 +45,33 @@
 #   else:
 #     i = i + 1
 
+#
+#
+#
+#
+#
+#
+# NWW 2 odejmowanie
+# a=int(input())
+# b=int(input())
+# iloczyn=a*b
+
+# while a!=b:
+#   if a>b:
+#     a=a-b
+#   elif b>a:
+#     b=b-a
+# NWD=a
+# print(iloczyn//NWD)
+
+
+# NWW 2 modulo
+a=int(input())
+b=int(input())
+
+iloczyn = a * b
+
+while b > 0:
+  a, b =b, a%b
+print(a)
+
