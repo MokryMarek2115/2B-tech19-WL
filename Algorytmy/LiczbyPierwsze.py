@@ -66,12 +66,12 @@
 
 
 # NWW 2 modulo
-a=int(input())
-b=int(input())
+# a=int(input())
+# b=int(input())
 
-iloczyn = a * b
+# iloczyn = a * b
 
-while b > 0:
-  a, b =b, a%b
-print(a)
+# while b > 0:
+#   a, b =b, a%b
+# print(a)
 
