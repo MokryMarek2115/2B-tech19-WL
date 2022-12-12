@@ -61,3 +61,46 @@
 #   print("trójkąt ostrokątny")
 # elif  c**2 > a**2+b**2:
 #   print("trójkąt rozwartokątny")
+
+
+# 1
+# a=int(input())
+# b=int(input())
+# if (a+b)%2==0:
+#   print("Tak")
+# else:
+#   print("Nie")
+
+
+# 3
+# k=int(input())
+# l=int(input())
+# m=int(input())
+
+# if k==l:
+#   print("Liczby k i l sa rowne")
+# elif k==m:
+#   print("Liczby k i m sa rowne")
+# elif l==m:
+#   print("liczby l i m sa rowne")
+# else:
+#   print("nie")
+
+
+# 4
+# a=int(input())
+# b=int(input())
+# c=int(input())
+# d=int(input())
+
+# if a<b and a<c and a<d:
+#   print("najmniejsza a")
+# elif b<a and b<c and b<d:
+#   print("najmniejsza b")
+# elif c<a and c<b and c<d:
+#   print("Najmniejsza c")
+# elif d<a and d<b and d<c:
+#   print("Najmniejsza d")
+
+
+# 5
