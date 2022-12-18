@@ -70,3 +70,42 @@
 #     print(i)
 #   if i % 100 == math.sqrt(i):
 #     print(i)
+
+
+
+#-------------------------------------------------
+
+
+# 1 
+# for i in range(1,31):
+#   print(i)
+
+
+# 2
+# for n in range(1, 100, 2):
+#   print(n**2)
+
+
+# 3
+# for i in range(1000, 10000):
+#   if i % 379 == 0:
+#     print(i)
+
+
+# 4
+# for i in range(100, 1000):
+#   if i % 5 == 0 and i % 6 == 0 and i % 11 == 0:
+#     print(i)
+
+
+
+
+
+
+# 5
+# n=int(input())
+# suma = 0
+# for i in range(n):
+#   a=int(input())
+#   suma = suma + a
+# print(suma)
