@@ -44,3 +44,9 @@ tekst = ""
 for i in cipher:
     tekst += chr((ord(i) ** d) % n)
 print(tekst)
+
+
+
+# PSEUDOKOD
+# Zdeklaruj dwie liczby
+# Wypisz je
