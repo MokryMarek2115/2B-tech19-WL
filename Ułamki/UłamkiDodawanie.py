@@ -16,3 +16,6 @@ g = e + f
 
 print(f"{a}/{b} + {c}/{d} = {e}/{NWW} + {f}/{NWW} = {g}/{NWW}")
 
+# NWW mianownikow
+# iloczyn mianownikow / (NWD)mianownikow
+
