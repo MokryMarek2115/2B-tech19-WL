@@ -34,7 +34,7 @@
 # liczba = input("Podaj liczbę: ")
 # suma_cyfr = oblicz_sume_cyfr(liczba)
 # print("Suma cyfr w liczbie", liczba, "to:", suma_cyfr)
-
+ 
 
 
 
@@ -97,10 +97,94 @@
 
 # ZAD 3 - liczby względnie pierwsze z 24
 # a=int(input())
-# if a // 2 > 0 and a // 3 > 0 and a // 4 > 0 and a // 6 > 0 and a // 8 > 0 and a // 24 > 0:
-#   print("Liczba nie jest względnie pierwsza z 24")
-# else:
+# b=24
+# from math import gcd
+# if gcd(a,b)==1:
 #   print("Liczba jest względnie pierwsza z 24")
+# else:
+#   print("Liczba nie jest względnie pierwsza z 24")
+
+
+# ZAD 4
+# napis = input("Podaj coś do zaszyfrowania: ")
+# szyfr = ""
+# print(napis[0], napis[1], napis[2])
+# print(len(napis))
+
+# for i in range(len(napis)):
+#     szyfr = szyfr + chr(65 + ((ord(napis[i])-65+3) % 26))
+# print(szyfr)
+
+
+
+
+
+# napis = input("Podaj napis do szyfracji: ")
+# szyfr = ""
+# klucz = int(input("Podaj klucz: "))
+
+# for i in range(len(napis)):
+#     szyfr = szyfr + chr(65 + (ord(napis[i]) - 65 + klucz) % 26)
+# print("Szyfracja:", szyfr)
+    
+
+
+# ZAD 5 
+# from math import gcd
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+
+# x, y = b, d
+# ilocz = x * y
+
+# while y > 0:
+#     x, y = y, x % y
+# NWW = ilocz // x
+
+# e = (NWW // b) * a
+# f = (NWW // d) * c
+# g = e + f
+
+# liczba_mieszana = g // NWW  # Liczba całkowita
+# ul_wlasc = abs(g % NWW)  # Ułamek właściwy
+# gcd_wart = gcd(ul_wlasc, NWW)  # Największy wspólny dzielnik
+
+# if ul_wlasc == 0:
+#     print(f"{a}/{b} + {c}/{d} = {liczba_mieszana}")
+# else:
+#     if liczba_mieszana == 0:
+#         print(f"{a}/{b} + {c}/{d} = {ul_wlasc}/{NWW}")
+#     else:
+#         print(f"{a}/{b} + {c}/{d} = {liczba_mieszana} {ul_wlasc // gcd_wart}/{NWW // gcd_wart}")
+
+
+
+# ZAD 6 - NWW
+# a=int(input())
+# b=int(input())
+# iloczyn=a*b
+
+# while a!=b:
+#   if a>b:
+#     a=a-b
+#   elif b>a:
+#     b=b-a
+# NWD=a
+# print(iloczyn//NWD)
+
+
+
+
+# a=int(input())
+# b=int(input())
+
+# iloczyn = a * b
+
+# while b > 0:
+#   a, b =b, a%b
+# print(a)
 
 
 
@@ -113,4 +197,34 @@
 # print(a.count("c"))
 
 
+
 # ZAD 2
+# napis = input("Wprowadź napis: ")
+
+# nierosnacy = True
+
+# for i in range(len(napis) - 1):
+#     if napis[i] < napis[i+1]:
+#         nierosnacy = False
+#         break
+
+# if nierosnacy:
+#     print("Litery w napisie występują w porządku nierosnącym.")
+# else:
+#     print("Litery w napisie nie występują w porządku nierosnącym.")
+
+
+# ZAD 3
+# a = input("Wprowadź pierwszy wyraz: ")
+# b = input("Wprowadź drugi wyraz: ")
+# c = input("Wprowadź trzeci wyraz: ")
+
+# if len(a) > len(b) and len(a) > len(c):
+#     print("najdluzszy a")
+# elif len(b) > len(a) and len(b) > len(c):
+#     print("najdluzszy b")
+# elif len(c) > len(a) and len(c) > len(b):
+#     print("najdluzszy c")
+
+
+
