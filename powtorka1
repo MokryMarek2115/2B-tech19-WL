@@ -1,0 +1,66 @@
+# KARTA PRACY 1
+
+# 1
+# def Oblicz(a,b):
+#   return a**2+b**2
+
+# print(Oblicz(3,5))
+
+
+# 2
+# def Oblicz(a,b):
+#   return (a+b)**2
+
+# print(Oblicz(3,4))
+
+# 3 
+# def Oblicz(a,b):
+#   return (a-b)**3
+
+# print(Oblicz(3,4))
+
+
+# 4
+# def ObliczIloczynLiczb(a,b,c):
+#   return a*b*c
+
+# print(ObliczIloczynLiczb(5,5,5))
+
+
+# 5
+# def ObliczWynik(a,b):
+#   return (a+b)*2/5:
+
+# print(ObliczWynik(3,4)
+
+# 6
+# def Oblicz()
+# brutto = float (input())
+# print (brutto / 1.23)
+
+
+# 7
+# def Oblicz(a,b):
+#   return a%b
+
+# print(Oblicz(3,4))
+
+
+
+# KARTA PRACY 2
+
+
+# 1
+# a=int(input())
+# def Tak(a):
+#   return a%3==0
+
+# print(Tak(a))
+
+
+# 2
+a=int(input())
+def tak(a) :
+  return (a >= 100 and a <= 999) % 17==0
+
+print(tak(a))
